@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 09, 2021 at 08:50 AM
+-- Generation Time: Mar 09, 2021 at 09:58 AM
 -- Server version: 5.7.24
 -- PHP Version: 7.4.1
 
@@ -42,7 +42,9 @@ CREATE TABLE `testimoniales` (
 INSERT INTO `testimoniales` (`id`, `nombre`, `correo`, `mensaje`) VALUES
 (2, 'luis', 'luis@luis.com', 'hola'),
 (3, 'Uno Nuevo', 'hola@hola.com', 'buen viaje !!'),
-(4, 'layla', 'layla@layla.com', 'Buena experiencia');
+(4, 'layla', 'layla@layla.com', 'Buena experiencia'),
+(5, 'ju', 'ju@ju.com', 'asdad'),
+(6, 'pepe', 'pepe@pepe.com', 'pepéeeeee\r\n');
 
 -- --------------------------------------------------------
 
@@ -98,7 +100,7 @@ ALTER TABLE `viajes`
 -- AUTO_INCREMENT for table `testimoniales`
 --
 ALTER TABLE `testimoniales`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `viajes`
